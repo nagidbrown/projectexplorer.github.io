@@ -99,7 +99,7 @@ figcaption {
 
 
 footer {
-    background-color: #5cb0ff;
+    background-color: #a0a0a0;
     clear: both;
     color: #ffffff;
 }
@@ -108,12 +108,15 @@ footer ul {
     list-style-type: none;
 }
 
-footer li { color: lime; }
+footer li { color: #99CCFF; }
+
+footer a {
+    color: #ffffff;
+}
 
 .wrapper {
     margin: 0 auto;
     max-width: 960px;
-    
 }
 
 .full, .third, .half {
@@ -124,6 +127,7 @@ footer li { color: lime; }
     float: left;
     padding-right: 2%; 
     width: 32%;
+    color: #000000;
 }
 
 .twothird {
